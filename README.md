@@ -23,11 +23,11 @@ Firbase friendly chat app https://github.com/firebase/friendlychat-android
 
 이연정 (LeeYunJung): 사용자 인터페이스 개발 및 api 적용 수정, 코드 설명, Readme 파일 작성, 최종프로젝트 발표
 
-강수지 (szfrost): firebase chat app 적용 및 사용자 인터페이스 개발, ppt제작, Readme 파일 작성, 최종 발표 대본 초안
+강수지 (szfrost): firebase chat app 적용 및 사용자 인터페이스 개발, 앱 아이콘 제작, ppt제작, Readme 파일 작성, 최종 발표 대본 초안
 
 손수민 (GODSOOMIN): 검색 키워드 적용, 코드 옮기기, Readme 파일 작성, git project 관리 
 
-현혜진 (hyejinhyun): firebase chat app 적용 및 사용자 인터페이스 개발, ppt 제작, Readme 파일 작성, 최종 발표 대본 초안
+현혜진 (hyejinhyun): firebase chat app 적용 및 사용자 인터페이스 개발, ppt 제작, Readme 파일 제작 및 작성, 최종 발표 대본 초안
 
 # +. 브랜치 정보
 팀 프로젝트 저장소에서 브랜치하고 커밋 작업 안하고 각자 저장소에서 clone 했기 때문에 저장소에 커밋 내용 저장되어 있지 않아서 문서로 작성합니다.

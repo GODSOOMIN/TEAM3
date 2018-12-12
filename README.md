@@ -52,7 +52,7 @@ https://github.com/LeeYunJung/YunJungFriendlyChat2 - 연정
 
 ## 7. APP ICON 디자인 12/12 (수) - 수지
 
-## 6. 디버깅 && 최종 프로젝트 푸쉬 12/13 (목) - 연정, 수민
+## 6. 디버깅 && 최종 프로젝트 푸쉬 12/12 () - 연정, 수민
 
 
 

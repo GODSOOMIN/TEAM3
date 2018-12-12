@@ -56,4 +56,4 @@ https://github.com/LeeYunJung/YunJungFriendlyChat2 - 연정
 
 
 # 라이센스 정보
-See LICENSE, Apache License 2.0
+See [LICENSE](https://github.com/GODSOOMIN/TEAM3/blob/master/LICENSE), Apache License 2.0

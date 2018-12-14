@@ -34,19 +34,19 @@ Firbase friendly chat app https://github.com/firebase/friendlychat-android
 
 1. firebase friendly chat 가져오기 && ui 수정 (게시판 ui 추가) 11/28 (수)
 
-https://github.com/hyejinhyun/HyejinFriendlyChat - 수지, 혜진, 연정
+   https://github.com/hyejinhyun/HyejinFriendlyChat - 수지, 혜진, 연정
 
 2. 게시판 기능에 네이버 검색 api 적용 12/5 (수)
 
-https://github.com/kzxwer/MinjinFriendlyChat_scrollable - 민진
+   https://github.com/kzxwer/MinjinFriendlyChat_scrollable - 민진
 
 3. 적용된 검색 api의 검색 키워드 적용 12/5 (수)
 
-https://github.com/GODSOOMIN/SoominFriendlychatreal - 수민
+   https://github.com/GODSOOMIN/SoominFriendlychatreal - 수민
 
 4. api적용 UI 수정 12/10 (일)
 
-https://github.com/LeeYunJung/YunJungFriendlyChat2 - 연정 
+   https://github.com/LeeYunJung/YunJungFriendlyChat2 - 연정 
 
 5. 코드 주석 추가 및 메뉴 UI 변경 12/12 (수) - 민진, 혜진
 
@@ -56,11 +56,11 @@ https://github.com/LeeYunJung/YunJungFriendlyChat2 - 연정
 
 8. 여러 검색키워드에 대한 뉴스 불러오기 12/14 (금) - 민진
 
-https://github.com/kzxwer/TrendChat-master
+   https://github.com/kzxwer/TrendChat-master
 
 9. 주석 추가 12/14 (금) - 연정
 
-https://github.com/LeeYunJung/TrendChat-yunjung
+   https://github.com/LeeYunJung/TrendChat-yunjung
 
 
 

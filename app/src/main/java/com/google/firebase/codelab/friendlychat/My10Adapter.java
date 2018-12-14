@@ -16,14 +16,14 @@ import android.support.annotation.NonNull;
 import org.w3c.dom.Text;
 
 public class My10Adapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
+    //My10Adapter : 데이터와 아이템에 대한 VIew생성
 
+    // 각 데이터 항목에 대한 뷰 참조 제공
+    // 복잡한 데이터 항목은 항목당 둘 이상의 보기가 필요할 수 있으며,
+    // 뷰 홀더의 데이터 항목에 대한 모든 뷰에 대한 액세스 제공
 
-
-    // Provide a reference to the views for each data item
-    // Complex data items may need more than one view per item, and
-    // you provide access to all the views for a data item in a view holder
     static class MyViewHolder extends RecyclerView.ViewHolder {
-        // each data item is just a string in this case
+        //My10Adapter RecyclerView에 대한 모든 서브뷰를 보유
         TextView mytitle;
         TextView mydescriptioin;
         TextView mydate;
@@ -32,7 +32,8 @@ public class My10Adapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
         MyViewHolder(View v) {
             super(v);
-
+            //activity_board10s에 있는 Id를 가져온다
+            //예를 들어 activity_board10s에 title 에는 mytitle의 내용이 들어갈것이다
             mytitle = v.findViewById(R.id.title);
             mydescriptioin = v.findViewById(R.id.description);
             mydate = v.findViewById(R.id.date);
@@ -40,29 +41,31 @@ public class My10Adapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
         }
     }
 
-    private ArrayList<Item> MyItemArrayList;
+    private ArrayList<Item> MyItemArrayList;//총 10개의 기사내용을 가지고 있음
     // Provide a suitable constructor (depends on the kind of dataset)
     My10Adapter(ArrayList<Item> ItemArrayList) {
         MyItemArrayList = ItemArrayList;
     }
 
 
-    // Create new views (invoked by the layout manager)
+    // 새로운 뷰를 만든다 ( activity_board10s 레이아웃 )
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent,
                                                       int viewType) {
-        // create a new view
+        //RecyclerView에 대한 모든 서브뷰를 보유
+        //새로운 View를 만든다
         View v = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.activity_board10s, parent, false);
 
         return new MyViewHolder(v);
     }
 
-    // Replace the contents of a view (invoked by the layout manager)
+    // View에 content(기사의 제목,내용,날짜,링크)로 대체한다
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
-        // - get element from your dataset at this position
-        // - replace the contents of the view with that element
+        //뷰에 있는 곳에 가져온 내용들로 대처한다
+        //예를 들어서 앞서 mytitle은 activity_board10s에 title 위치할건데 (MyViewHolder참고)
+        //MyItemArrayList에 title에 담긴 내용을 mytitle에 문자화하여 가져온것이다
         MyViewHolder myViewHolder = (MyViewHolder) holder;
 
         myViewHolder.mytitle.setText(MyItemArrayList.get(position).title);
@@ -75,8 +78,7 @@ public class My10Adapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     // Return the size of your dataset (invoked by the layout manager)
     @Override
     public int getItemCount() {
-//        System.out.println("몇개 " + MyItemArrayList.size());
-        return MyItemArrayList.size();
+        return MyItemArrayList.size(); //return 10
     }
 
 }

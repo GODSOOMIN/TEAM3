@@ -32,27 +32,38 @@ Firbase friendly chat app https://github.com/firebase/friendlychat-android
 # +. 브랜치 정보
 팀 프로젝트 저장소에서 브랜치하고 커밋 작업 하지 않고 각자 개인 저장소에서 clone 했기 때문에 저장소에 커밋 내용 저장되어 있지 않아서 문서로 작성합니다.
 
-## 1. firebase friendly chat 가져오기 && ui 수정 (게시판 ui 추가) 11/28 (수)
+1. firebase friendly chat 가져오기 && ui 수정 (게시판 ui 추가) 11/28 (수)
 
 https://github.com/hyejinhyun/HyejinFriendlyChat - 수지, 혜진, 연정
 
-## 2. 게시판 기능에 네이버 검색 api 적용 12/5 (수)
+2. 게시판 기능에 네이버 검색 api 적용 12/5 (수)
 
 https://github.com/kzxwer/MinjinFriendlyChat_scrollable - 민진
 
-## 3. 적용된 검색 api의 검색 키워드 적용 12/5 (수)
+3. 적용된 검색 api의 검색 키워드 적용 12/5 (수)
 
 https://github.com/GODSOOMIN/SoominFriendlychatreal - 수민
 
-## 4. api적용 UI 수정 12/10 (일)
+4. api적용 UI 수정 12/10 (일)
 
 https://github.com/LeeYunJung/YunJungFriendlyChat2 - 연정 
 
-## 5. 코드 주석 추가 및 메뉴 UI 변경 12/12 (수) - 민진, 혜진
+5. 코드 주석 추가 및 메뉴 UI 변경 12/12 (수) - 민진, 혜진
 
-## 7. APP ICON 디자인 12/12 (수) - 수지
+6. APP ICON 디자인 12/12 (수) - 수지
 
-## 6. 디버깅 && 최종 프로젝트 푸쉬 12/12 () - 연정, 수민
+7. 디버깅 프로젝트 푸쉬 12/12 (수) - 연정, 수민
+
+8. 여러 검색키워드에 대한 뉴스 불러오기 12/14 (금) - 민진
+
+https://github.com/kzxwer/TrendChat-master
+
+9. 주석 추가 12/14 (금) - 연정
+
+https://github.com/LeeYunJung/TrendChat-yunjung
+
+
+
 
 
 

@@ -69,7 +69,62 @@ MyItemArrayList에 저장된 내용을 이 클래스에서 생성한 변수에 �
 
 예를 들면, MyItemArrayList에서 title에 담긴 내용을 mytitle에 문자화하여 가져온다.
 
+## 3) 연령대별 관심 키워드에 맞는 기사 추출
+
+### 3.1 키워드를 저장할 변수 지정
+
+<img width="500" src="https://user-images.githubusercontent.com/43198806/50043618-17d17c80-00bb-11e9-9bcf-ce1e29d5fcae.PNG"></img>
+
+연령대 별 관심 키워드를 담을 string 타입 변수인 keyword를 지정해 줍니다. 
+
+또한, 기사의 제목, 내용, 작성 날짜, 링크 값을 저장할 string 타입의 변수를 선언해 줍니다.
+
+### 3.2 연령대별 급상승 검색어 추출
+
+<img width="500" src="https://user-images.githubusercontent.com/43198806/50043622-33d51e00-00bb-11e9-8376-905fb1eaab8c.PNG"></img>
+
+url 주소에 있는 태그 속 내용 중 검색어인 텍스트만 가져온다. 
+Items에 전체연령대, 10대, 20대, 30대,40대,50대이상의 실시간 급상승검색어가 1위부터 20위까지 순차적으로 들어있다. 
+이 검색어를 ArrayList를 생성하여 각 연령대별 실시간 급상승 검색어 1위-20위를 저장한다.
+
+전체 연령대의 실시간 급상승 검색어 1위-20위는 ArrayList의 index 0-19에 저장된다.
+10대의 실시간 급상승 검색어 1위-20위는 ArrayList의 index 20-39에 저장된다.
+20대의 실시간 급상승 검색어 1위-20위는 ArrayList의 index 40-59에 저장된다.
+30대의 실시간 급상승 검색어 1위-20위는 ArrayList의 index 60-79에 저장된다.
+40대의 실시간 급상승 검색어 1위-20위는 ArrayList의 index 80-99에 저장된다.
+50대 이상의 실시간 급상승 검색어 1위-20위는 ArrayList의 index 100-119에 저장된다.
+
+### 3.3 실시간 급상승 검색어 랜덤 선택
+
+<img width="500" src="https://user-images.githubusercontent.com/43198806/50043626-43546700-00bb-11e9-8eb6-fda7ca199ae4.PNG"></img>
+
+Int 배열을 생성하여 ArrayList에 저장된 연령대별 실시간 급상승 검색어 20개 중 임의로 5개를 뽑는다.
+
+### 3.4 해당 급상승 검색어를 검색해주는 url 추출
+
+<img width="500" src="https://user-images.githubusercontent.com/43198806/50043629-50715600-00bb-11e9-8cb5-da8a181b0791.PNG"></img>
+
+실시간 급상승 검색어 5개를 랜덤으로 추출하기 위해 생성하여 저장된 index 5개에 해당되는 값을 불러와서 해당 키워드 값을 keyword에 저장한다. 
+
+한 키워드 당 2개의 기사를 불러온다.
+
+### 3.5 태그 값 복사 및 출력하는 부분
+
+<img width="500" src="https://user-images.githubusercontent.com/43198806/50043634-62eb8f80-00bb-11e9-819b-969756242107.PNG"></img>
+
+태그 값이 존재하면 boolean값을 각각 true로 지정한다.
+
+<img width="500" src="https://user-images.githubusercontent.com/43198806/50043636-6ed75180-00bb-11e9-8448-2b2d156d3100.PNG"></img>
+
+태그 값이 존재하는 부분은 string변수로 그 값들을 복사한다.
+
+<img width="500" src="https://user-images.githubusercontent.com/43198806/50043640-7bf44080-00bb-11e9-915b-7c47e2dee041.PNG"></img>
+
+쓸모 없는 단어를 제거한 후, 원하는 태그 값인 기사의 제목, 내용, 날짜, 링크 값을 출력한다.
+
+
 Firbase friendly chat app https://github.com/firebase/friendlychat-android
+
 
 # 5. 개발자 정보
 
@@ -85,7 +140,7 @@ Firbase friendly chat app https://github.com/firebase/friendlychat-android
 
 현혜진 (hyejinhyun): firebase chat app 적용 및 사용자 인터페이스 개발, ppt 제작, Readme 파일 작성, 최종 발표 대본 초안
 
-# +. 브랜치 정보
+## +. 브랜치 정보
 팀 프로젝트 저장소에서 브랜치하고 커밋 작업 하지 않고 각자 개인 저장소에서 clone 했기 때문에 저장소에 커밋 내용 저장되어 있지 않아서 문서로 작성합니다.
 
 1. firebase friendly chat 가져오기 && ui 수정 (게시판 ui 추가) 11/28 (수)
@@ -119,8 +174,6 @@ Firbase friendly chat app https://github.com/firebase/friendlychat-android
    https://github.com/LeeYunJung/TrendChat-yunjung
    
 10. apk 추출 및 readme 수정 12/15(토) - 혜진
-
-
 
 
 # 라이센스 정보

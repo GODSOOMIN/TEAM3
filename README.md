@@ -51,6 +51,24 @@ Menuactivity class를 생성하고, 10대부터 50대 이상까지 총 5개의 �
 
 사용자가 버튼을 눌렀을 때 setOnClickListener를 통해 Board10sActivity.class을 실행하게 되며, 변수 age는 사용자가 누른 연령대로 값을 받게 된다.
 
+## 2) Data와 Item에 대한 View생성
+
+### 2.1 기사내용을 넣을 ArrayList 생성
+
+<img width="500" src="https://user-images.githubusercontent.com/43198806/50043571-e4dab900-00b9-11e9-8f09-c4aa7d067ca3.PNG"></img>
+
+### 2.2 activity_board10s 레이아웃의 새로운 뷰 생성
+
+<img width="500" src="https://user-images.githubusercontent.com/43198806/50043580-ff149700-00b9-11e9-8c13-31b671dc58bb.PNG"></img>
+
+### 2.3 View의 content를 대체
+
+<img width="500" src="https://user-images.githubusercontent.com/43198806/50043584-0cca1c80-00ba-11e9-927d-a41161178f78.PNG"></img>
+
+MyItemArrayList에 저장된 내용을 이 클래스에서 생성한 변수에 문자화하여 가져온다. 
+
+예를 들면, MyItemArrayList에서 title에 담긴 내용을 mytitle에 문자화하여 가져온다.
+
 Firbase friendly chat app https://github.com/firebase/friendlychat-android
 
 # 5. 개발자 정보

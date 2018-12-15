@@ -61,13 +61,8 @@ Firbase friendly chat app https://github.com/firebase/friendlychat-android
 9. 주석 추가 12/14 (금) - 연정
 
    https://github.com/LeeYunJung/TrendChat-yunjung
-
-
-
-
-
-
-
+   
+10. apk 추출 및 readme 수정 12/15(토) - 혜진
 
 
 

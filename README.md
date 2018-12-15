@@ -38,13 +38,13 @@ trendChat.apk 파일을 안드로이드 기기에 다운로드하고, 파일을 
 
 1.1 연령대 별 버튼 생성
 
-<img width="200" src="https://user-images.githubusercontent.com/43198806/50043510-c45e2f00-00b8-11e9-86cd-eea1286654a3.PNG"></img>
+<img width="500" src="https://user-images.githubusercontent.com/43198806/50043510-c45e2f00-00b8-11e9-86cd-eea1286654a3.PNG"></img>
 
 Menuactivity class를 생성하고, 10대부터 50대 이상까지 총 5개의 버튼을 생성한다.
 
 1.2 버튼 눌렀을 때의 Event처리
 
-<img width="200" src="https://user-images.githubusercontent.com/43198806/50043519-dd66e000-00b8-11e9-921a-bc5bfc880d22.PNG"></img>
+<img width="500" src="https://user-images.githubusercontent.com/43198806/50043519-dd66e000-00b8-11e9-921a-bc5bfc880d22.PNG"></img>
 
 사용자가 버튼을 눌렀을 때 setOnClickListener를 통해 Board10sActivity.class을 실행하게 되며, 변수 age는 사용자가 누른 연령대로 값을 받게 된다.
 

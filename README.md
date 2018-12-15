@@ -20,8 +20,17 @@ trendChat.apk 파일을 안드로이드 기기에 다운로드하고, 파일을 
    <img width="200" src="https://user-images.githubusercontent.com/43198806/50041136-43407100-0093-11e9-8b34-17089fe8c24c.png">
    </div>
 
-TrendChat 어플리케이션 설치 후 google 계정으로 로그인하여 사용한다.
+## 앱 사용법
+1. TrendChat 어플리케이션 설치 후 google 계정으로 로그인하여 사용한다.
+
 <img width="200" src="https://user-images.githubusercontent.com/43198806/50042992-f61ec800-00af-11e9-91b6-65fc28f54049.png"></img>
+
+2. 게시판 탭을 누른 후, 본인 연령대의 탭을 누르면 본인 연령대의 관심 기사가 키워드 당 2개의 기사씩 나오게 됩니다.
+<div>
+   <img width = "200" src="https://user-images.githubusercontent.com/43198806/50042998-0d5db580-00b0-11e9-8c09-38b3cc0f860a.png">
+   <img width = "200" src="https://user-images.githubusercontent.com/43198806/50043001-1cdcfe80-00b0-11e9-9712-980d7e8ca136.png">
+   <img width="200" src="https://user-images.githubusercontent.com/43198806/50043008-30886500-00b0-11e9-8e26-84c5f0a15931.png">
+   </div>
 
 # 4. 주요 기능 및 관련 코드/API 설명 > 나중에
 

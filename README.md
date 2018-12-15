@@ -20,6 +20,9 @@ trendChat.apk 파일을 안드로이드 기기에 다운로드하고, 파일을 
    <img width="200" src="https://user-images.githubusercontent.com/43198806/50041136-43407100-0093-11e9-8b34-17089fe8c24c.png">
    </div>
 
+TrendChat 어플리케이션 설치 후 google 계정으로 로그인하여 사용한다.
+<img width="200" src="https://user-images.githubusercontent.com/43198806/50042992-f61ec800-00af-11e9-91b6-65fc28f54049.png"></img>
+
 # 4. 주요 기능 및 관련 코드/API 설명 > 나중에
 
 Firbase friendly chat app https://github.com/firebase/friendlychat-android

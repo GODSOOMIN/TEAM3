@@ -14,7 +14,11 @@ TrendChat
 ## 앱 설치 방법
 
 trendChat.apk 파일을 안드로이드 기기에 다운로드하고, 파일을 실행하여 설치한다.
-
+<div>
+   <img width = "200" src="https://user-images.githubusercontent.com/43198806/50041112-da58f900-0092-11e9-8d7e-b244aeb46a70.png">
+   <img width = "200" src="https://user-images.githubusercontent.com/43198806/50041134-328ffb00-0093-11e9-9c47-f6b3c24953ab.png">
+   <img width="200" src="https://user-images.githubusercontent.com/43198806/50041136-43407100-0093-11e9-8b34-17089fe8c24c.png">
+   </div>
 
 # 4. 주요 기능 및 관련 코드/API 설명 > 나중에
 

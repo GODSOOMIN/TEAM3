@@ -84,7 +84,8 @@ MyItemArrayList에 저장된 내용을 이 클래스에서 생성한 변수에 �
 <img width="500" src="https://user-images.githubusercontent.com/43198806/50043622-33d51e00-00bb-11e9-8376-905fb1eaab8c.PNG"></img>
 
 url 주소에 있는 태그 속 내용 중 검색어인 텍스트만 가져온다. 
-Items에 전체연령대, 10대, 20대, 30대,40대,50대이상의 실시간 급상승검색어가 1위부터 20위까지 순차적으로 들어있다. 
+Items에 전체연령대, 10대, 20대, 30대,40대,50대이상의 네이버 데이터랩의 실시간 급상승검색어가 1위부터 20위까지 순차적으로 들어있다. 
+(급상승검색어 출처: https://datalab.naver.com/keyword/realtimeList.naver)
 이 검색어를 ArrayList를 생성하여 각 연령대별 실시간 급상승 검색어 1위-20위를 저장한다.
 
 전체 연령대의 실시간 급상승 검색어 1위-20위는 ArrayList의 index 0-19에 저장된다.
@@ -176,5 +177,9 @@ Firbase friendly chat app https://github.com/firebase/friendlychat-android
 10. apk 추출 및 readme 수정 12/15(토) - 혜진
 
 
-# 라이센스 정보
+# 6. 라이센스 정보
 See [LICENSE](https://github.com/GODSOOMIN/TEAM3/blob/master/LICENSE), Apache License 2.0
+
+# 7. 시연동영상
+https://youtu.be/f0i09kAZXpc
+
